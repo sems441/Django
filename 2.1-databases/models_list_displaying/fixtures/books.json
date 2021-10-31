@@ -4,7 +4,7 @@
     "pk": 1,
     "fields": {
       "name": "Война и мир",
-      "author": "Ф.Д. Достоевский",
+      "author": "Лев Толстой",
       "pub_date": "2018-02-27"
     }
   },
@@ -15,6 +15,60 @@
       "name": "1984",
       "author": "Джордж Оруэл",
       "pub_date": "2016-12-06"
+    }
+  },
+    {
+    "model": "books.book",
+    "pk": 3,
+    "fields": {
+      "name": "Происхождение",
+      "author": "Дэн Браун",
+      "pub_date": "2017-10-16"
+    }
+  },
+    {
+    "model": "books.book",
+    "pk": 4,
+    "fields": {
+      "name": "4321",
+      "author": "Пол Остер",
+      "pub_date": "2019-06-15"
+    }
+  },
+    {
+    "model": "books.book",
+    "pk": 5,
+    "fields": {
+      "name": "Время первых",
+      "author": "Валерий Рощин",
+      "pub_date": "2020-03-17"
+    }
+  },
+    {
+    "model": "books.book",
+    "pk": 6,
+    "fields": {
+      "name": "Электронная книга «Центр тяжести»",
+      "author": "Алексей Поляринов",
+      "pub_date": "2018-04-01"
+    }
+  },
+    {
+    "model": "books.book",
+    "pk": 7,
+    "fields": {
+      "name": "После",
+      "author": "Анна Тодд",
+      "pub_date": "2020-03-17"
+    }
+  },
+    {
+    "model": "books.book",
+    "pk": 8,
+    "fields": {
+      "name": "Тайные виды на гору Фудзи",
+      "author": "Виктор Пелевин",
+      "pub_date": "2018-04-01"
     }
   }
 ]
