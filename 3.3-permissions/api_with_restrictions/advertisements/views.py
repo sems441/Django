@@ -1,4 +1,5 @@
 from django_filters.rest_framework import DjangoFilterBackend
+from rest_framework import request
 from rest_framework.filters import SearchFilter
 from rest_framework.permissions import IsAuthenticatedOrReadOnly
 from rest_framework.viewsets import ModelViewSet
@@ -17,9 +18,5 @@ class AdvertisementViewSet(ModelViewSet):
     filter_backends = [SearchFilter, DjangoFilterBackend]
     filter_class = AdvertisementFilter
 
-    filterset_fields = ['creator__id']
+    filterset_fields = ['creator__id', 'id']
     search_field = ['id']
-
-    def get_queryset(self):
-        print(self.)
-        return
